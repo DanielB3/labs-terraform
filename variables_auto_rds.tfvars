@@ -1,0 +1,14 @@
+security_group               = "infralabs-test"
+vpc                          = "vpc-051ec06ffb17c761f"  // ID de tu VPC existente
+db-instance-id               = "infralabs-db"
+db_name                      = "infralabs_rds_db"
+db_instance_type             = "db.t3.micro"
+db_instance_storage          = 10
+db_instance_engine           = "mysql"
+db_instance_engine_version   = "8.0"
+db_instance_skip_final_snapshot = "true"
+db_instance_publicly_accessible = "false"
+db_username                  = "teInfra"
+db_password                  = "Terraform2023!"
+subnet1                    = "subnet-081cc8e03c63d41f8"  // ID de tu subred existente
+subnet2                    = "subnet-0e21b0bd0226c645e"  // ID de tu subred existente
